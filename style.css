@@ -1,0 +1,36 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  background-color: #DFCBC9;
+}
+
+body {
+  font-family: "Playwrite GB S", cursive;
+
+}
+
+.title {
+  margin: 40px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  border-bottom: solid #8B8399 4px;
+
+}
+
+.gallery-image {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+
+
+.gallery-image img {
+  width: 20%;
+  height: 30%;
+  margin: 20px;
+  flex-wrap: wrap;
+  border: solid black 4px;
+}
